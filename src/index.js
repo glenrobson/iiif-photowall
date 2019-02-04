@@ -1,4 +1,11 @@
-import buildPhotoWall from './buildPhotoWall'
+import {loadURL as _loadURL} from './buildPhotoWall'
+
+// Export import notes
+// Possible to import a function but it must be exported in other file.
+// if export default function loadURL(url) then can import it using:
+// import loadURL from './buildPhotoWall'
+// if export function loadURL(url) then can import it using:
+// import {loadURL} from './buildPhotoWall'
 
 // Import JQuery required for justifiedGallery 
 import $ from 'jquery'
@@ -11,3 +18,5 @@ import 'jquery.swipebox/src/css/swipebox.min.css';
 import justifiedGallery from 'justifiedGallery';
 import 'justifiedGallery/src/less/justifiedGallery.less';
 
+// Export the configuration URL so this can be configered in the containg page
+export const loadURL = _loadURL;

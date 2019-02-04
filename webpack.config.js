@@ -5,8 +5,8 @@ module.exports = {
   output: {
     filename: 'iiif-photowall.js',
     publicPath: 'dist',
-    libraryTarget: 'var',
-    library: 'photowallObj',
+    libraryTarget: 'umd',
+    library: 'iiifPhotoWall'
   },
    module: {
     rules: [

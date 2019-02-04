@@ -1,12 +1,5 @@
-//var justifiedGallery = require('justifiedGallery');
- var qs = /manifest=(.*)/g.exec(window.location.search);
- var jsonURL = qs[1];
-            
- loadURL(jsonURL);
-
 // Load IIIF Images
-function loadURL(url) {
-    console.log('Reached function with url ' + url);
+export function loadURL(url) {
     fetch(url).then(response => {
         return response.json();
     }).then(data => {

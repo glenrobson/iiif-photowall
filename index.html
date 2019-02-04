@@ -39,6 +39,9 @@
             </div>
         </main>  
         <script>
+            var qs = /manifest=(.*)/g.exec(window.location.search);
+            var jsonURL = qs[1];
+            iiifPhotoWall.loadURL(jsonURL);
         </script>
     </body>
 </html>
