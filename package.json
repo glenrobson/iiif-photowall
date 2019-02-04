@@ -1,0 +1,49 @@
+{
+  "name": "iiif-photowall",
+  "version": "1.0.0",
+  "description": "Photo wall using IIIF Manifests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch",
+    "server": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glenrobson/iiif-photowall.git"
+  },
+  "keywords": [
+    "iiif",
+    "photo"
+  ],
+  "author": "@glenrobson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glenrobson/iiif-photowall/issues"
+  },
+  "homepage": "https://github.com/glenrobson/iiif-photowall#readme",
+  "dependencies": {
+    "file-loader": "^3.0.1",
+    "jquery": "^3.3.1",
+    "jquery.swipebox": "^1.4.4",
+    "justifiedGallery": "^3.7.0",
+    "terser": "^3.14.1",
+    "url-loader": "^1.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "expose-loader": "^0.7.5",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
