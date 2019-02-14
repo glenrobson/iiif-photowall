@@ -20,7 +20,7 @@ Run `npm install` to install the dependencies
 
 ## Testing locally
 
-`npm run server`
+`npm run start`
 
 Navigate to: http://localhost:8080/index.html?manifest=https://damsssl.llgc.org.uk/iiif/2.0/1466237/manifest.json
 

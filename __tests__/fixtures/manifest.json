@@ -1,0 +1,21 @@
+{
+    "label": "Test Manifest",
+    "sequences":[
+        {
+            "canvases":[
+                {
+                    "images":[
+                        {
+                            "resource":{
+                                "service":{
+                                    "@id":"http://example.com/image"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

@@ -39,9 +39,26 @@
             </div>
         </main>  
         <script>
+            // Possible to send a call back for the manifest metadata
+            function fillMetadata(manifest, config) {
+                 document.getElementById('header-title').innerHTML = manifest["label"] + '---Local---';
+                 document.getElementById('main-title').innerHTML = manifest["label"];
+                 document.getElementById('description').innerHTML = manifest["description"];
+            }
+            var config = {};
+
+            // Call function above to show the metadata
+            config.showMetadata = fillMetadata;
+            // Or can use the default values
+            //config['label'] = ['header-title', 'main-title'];
+            //config['description'] = 'description';
+
+            // Configure the gallery div id
+            config.div = 'photowall';
+
             var qs = /manifest=(.*)/g.exec(window.location.search);
             var jsonURL = qs[1];
-            iiifPhotoWall.loadURL(jsonURL);
+            iiifPhotoWall.loadURL(jsonURL, config);
         </script>
     </body>
 </html>
