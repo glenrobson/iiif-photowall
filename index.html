@@ -42,7 +42,9 @@
             // Possible to send a call back for the manifest metadata
             function fillMetadata(manifest, config) {
                  document.getElementById('main-title').innerHTML = manifest["label"];
-                 document.getElementById('description').innerHTML = manifest["description"];
+                 if (manifest["description"] != null) {
+                     document.getElementById('description').innerHTML = manifest["description"];
+                 }    
             }
             var config = {};
 
