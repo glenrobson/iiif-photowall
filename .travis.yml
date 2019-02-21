@@ -6,7 +6,7 @@ before_script:
 script:
 - npm test
 before_deploy:
-- mkdir deploy; cp index.html deploy/; cp -r dist deploy
+- ./node_modules/webpack-cli/bin/cli.js --progress --mode=production; mkdir deploy; cp index.html deploy/; cp -r dist deploy
 deploy:
   matrix:
   - provider: s3
