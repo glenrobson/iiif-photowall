@@ -12,7 +12,7 @@
                 <div class="container d-flex justify-content-between">
                     <a href="#" class="navbar-brand d-flex align-items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-                        <strong id="header-title"></strong>
+                        <strong id="header-title">IIIF Photo wall</strong>
                     </a>
                 </div>
             </div>
@@ -28,7 +28,7 @@
 
             <div class="album py-5 bg-light">
                 <div class="container">
-                    <div id="photowall" >
+                    <div id="photowall" class="justified-gallery">
                     <!--<a href="https://iiif.gdmrdigital.com/image/iiif/2/personal%2Faustria-2018%2FIMG_0636.jp2/full/full/0/default.jpg" class="swipeboxExampleImg">
                     <img alt="Title 1" src="https://iiif.gdmrdigital.com/image/iiif/2/personal%2Faustria-2018%2FIMG_0636.jp2/full/512,/0/default.jpg"/>
                     </a>-->
@@ -41,7 +41,6 @@
         <script>
             // Possible to send a call back for the manifest metadata
             function fillMetadata(manifest, config) {
-                 document.getElementById('header-title').innerHTML = manifest["label"] + '---Local---';
                  document.getElementById('main-title').innerHTML = manifest["label"];
                  document.getElementById('description').innerHTML = manifest["description"];
             }
@@ -49,12 +48,9 @@
 
             // Call function above to show the metadata
             config.showMetadata = fillMetadata;
-            // Or can use the default values
-            //config['label'] = ['header-title', 'main-title'];
-            //config['description'] = 'description';
-
             // Configure the gallery div id
             config.div = 'photowall';
+            config.rowHeight = '200';
 
             var qs = /manifest=(.*)/g.exec(window.location.search);
             var jsonURL = qs[1];
