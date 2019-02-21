@@ -13,11 +13,11 @@ deploy:
         secure: iZHqyh2LwzgMrgWh/IVHYt47CbnGL/U1RpGUn4TjNi19+eBTDJOgYgaMAwYSBldAzVd9ej2NPrQpBe3kD4xxOigsw9JvKCm707Sa4Emz8NivBpaDez7RdkxI2K/Wh1MdUNlR1dTeX80cOxVYvIk9VVwoLp1/hDMgzhguTJ+r3sYvberjOQgXe/ouZ6ZBwn9oHH932xfJLeQYbBAzK4PY35Y/fphTnxLtHUFvWGoRd+LDPtOw0BLM47dr0XbnfKrBZrY7sU4wxegMS7HeAb6Gdf0b9g3R1zaR1nihK8H2VQauzPsXjswSJHnzyEztSAVaq9HurAtNgnKOmFfxgfCQns2uo1G/fatrhZv0nnea7ylYvpuFGxlz6utFQlLYMu+fFkf2NRQzUj8XzsoYz99krjkFr2q9GNeel3zyVIFcTDK6M1ww6A6GLIWmU+/4qRDZcI6siNYlUrc4MJnmLLV69vgw7x4H9Z1FSGed4bh3xNMGaKEjdWYkp1vnghtrTmPxgII3a4WowjJsteU/Hx8rUmsINdvSPdY5KZo7O8ujVTOx+75xsApjILV4CTpjPxMeXgKy30ZrJPZ7HckK3gRVy8ybJCyMM7QFlfo3UKpUFO74FMHqNB3EqcReYNckPyLGxbUdiIUjF5xiEgqXekW7O3IvHPQ2jO+dKBmlL++K1zI=
     secret_access_key:
         secure: LSVwH+A2AcnrnBUxwwbA/5rQiHBt6W3tW1/q1Bq58dr6+LS3qfztc5nrRlOFKC/xN51w+Zx+U1AgAlp4Ejw0BCpRXJAj3dRrsQ0NTAeQKUrLZIGmcr5DVjBgLO+pJtW6/2DaX0fDk7RXXUAl4Sx9uOL9bko8m+wYC80VFhmWvo17aRfaK8y60PbaKAtv0KEqic4A2zLuU528pa1vonuZXCytX1r6fq65BvH+sBkOdEYjgIqf+qobFjEnDjQSf+6uhW+bcXnEzfST+mOnot+equLausBmIoCJXnQzpFOXPQJ9CvNhyazi9wjm+1QGB26sHy5vOsdbPpZmqVn9/5y0F2tVLZHBPuyPxGspVjs2xKmUJMxpe2YO+k3RCCXorQrxzj93t8UkZ3xu5teQ4EtDBZ+KC1wwW0FLlZQ6bJrTLDbYe5rJEtwOlf3YkhqCfCK/4BTZNS22DBzkoX9KtffTVlc/m6U5QsX8pmDI9bhr/c23jxzDqfTS8XQdeR2FBgZJrVKkrhL8qFWk5/6lM3xrZA3k0wxg2/IEmDOpdOTZR9SqR0vdJzuYyeiZQ1fl233L2KicAqCrFNHHw08TQpXQGtWdh04nNk7md+WexlLO6B6zNQVqE9jr3ohs9Uoh8DB27qtbyJAdphmeTG//8uUdyXCTUYByHWgEDq1bLkU2rlo=
-    bucket: iiif-root-website
+    bucket: iiif-manifests-gdmr
     skip_cleanup: true
     detect_encoding: true
     acl: public_read
-    region: iiif-manifests-gdmr
+    region: eu-west-2 
     upload-dir: iiif-photowall
     local_dir: deploy
     on:
