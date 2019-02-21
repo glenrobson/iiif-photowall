@@ -4,11 +4,10 @@ node_js:
 before_script:
 - npm install
 script:
-- npm test
+- npm test && npm run build
 before_deploy:
-- ./node_modules/webpack-cli/bin/cli.js --progress --mode=production; mkdir deploy; cp index.html deploy/; cp -r dist deploy
+- mkdir deploy; cp index.html deploy/; cp -r dist deploy
 deploy:
-  matrix:
   - provider: s3
     access_key_id:
         secure: iZHqyh2LwzgMrgWh/IVHYt47CbnGL/U1RpGUn4TjNi19+eBTDJOgYgaMAwYSBldAzVd9ej2NPrQpBe3kD4xxOigsw9JvKCm707Sa4Emz8NivBpaDez7RdkxI2K/Wh1MdUNlR1dTeX80cOxVYvIk9VVwoLp1/hDMgzhguTJ+r3sYvberjOQgXe/ouZ6ZBwn9oHH932xfJLeQYbBAzK4PY35Y/fphTnxLtHUFvWGoRd+LDPtOw0BLM47dr0XbnfKrBZrY7sU4wxegMS7HeAb6Gdf0b9g3R1zaR1nihK8H2VQauzPsXjswSJHnzyEztSAVaq9HurAtNgnKOmFfxgfCQns2uo1G/fatrhZv0nnea7ylYvpuFGxlz6utFQlLYMu+fFkf2NRQzUj8XzsoYz99krjkFr2q9GNeel3zyVIFcTDK6M1ww6A6GLIWmU+/4qRDZcI6siNYlUrc4MJnmLLV69vgw7x4H9Z1FSGed4bh3xNMGaKEjdWYkp1vnghtrTmPxgII3a4WowjJsteU/Hx8rUmsINdvSPdY5KZo7O8ujVTOx+75xsApjILV4CTpjPxMeXgKy30ZrJPZ7HckK3gRVy8ybJCyMM7QFlfo3UKpUFO74FMHqNB3EqcReYNckPyLGxbUdiIUjF5xiEgqXekW7O3IvHPQ2jO+dKBmlL++K1zI=
