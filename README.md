@@ -11,11 +11,11 @@ https:///iiif.gdmrdigital.com/iiif-photowall/index.html?manifest=https://example
 
 Here are a few examples: 
 
- * [Geoff Charles, Bomb damage in Wales and crashed German bomber - NLW](https://iiif.gdmrdigital.com/iiif-photowall/index.html?manifest=https://damsssl.llgc.org.uk/iiif/2.0/1466237/manifest.json)
- * [Geoff Charles, HMS Conway - NLW](https://iiif.gdmrdigital.com/iiif-photowall/index.html?manifest=https://damsssl.llgc.org.uk/iiif/2.0/1465719/manifest.json)
- * [The Little Foxes - Stanford](https://iiif.gdmrdigital.com/iiif-photowall/index.html?manifest=https://purl.stanford.edu/sp236mx9008/iiif/manifest)
- * [Christ Church Carroll-Photography.VII-Album - Oxford](https://iiif.gdmrdigital.com/iiif-photowall/index.html?manifest=https://iiif.bodleian.ox.ac.uk/iiif/manifest/0b7eead9-312b-4fa2-970e-92405c552970.json)
- * [Cuba Fotos Finiseculares Siglo XIX y Principios XX - Cuba](http://iiif.gdmrdigital.com/iiif-photowall/index.html?manifest=http://imagenes.sld.cu/iiif/prezi/bdc/bnjm/fotos/bnjmscufotcub19-20/manifest.json)
+ * [Geoff Charles, Bomb damage in Wales and crashed German bomber - National Library of Wales](https://iiif.gdmrdigital.com/iiif-photowall/index.html?manifest=https://damsssl.llgc.org.uk/iiif/2.0/1466237/manifest.json)
+ * [Geoff Charles, HMS Conway - National Library of Wales](https://iiif.gdmrdigital.com/iiif-photowall/index.html?manifest=https://damsssl.llgc.org.uk/iiif/2.0/1465719/manifest.json)
+ * [The Little Foxes - Stanford University](https://iiif.gdmrdigital.com/iiif-photowall/index.html?manifest=https://purl.stanford.edu/sp236mx9008/iiif/manifest)
+ * [Christ Church Carroll-Photography.VII-Album - Bodleian Library, University of Oxford](https://iiif.gdmrdigital.com/iiif-photowall/index.html?manifest=https://iiif.bodleian.ox.ac.uk/iiif/manifest/0b7eead9-312b-4fa2-970e-92405c552970.json)
+ * [Cuba Fotos Finiseculares Siglo XIX y Principios XX - Havana University, Cuba](http://iiif.gdmrdigital.com/iiif-photowall/index.html?manifest=http://imagenes.sld.cu/iiif/prezi/bdc/bnjm/fotos/bnjmscufotcub19-20/manifest.json)
 
 Please let me know if you find any other good ones that could be added to the list above by creating an issue.
 
