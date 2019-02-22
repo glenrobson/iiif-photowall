@@ -3,14 +3,6 @@
 import {processManifest} from '../src/buildPhotoWall';
 import manifest from './fixtures/manifest.json';
 
-import $ from 'jquery'
-import jQuery from 'jquery'
-window.jQuery = $;
-window.$ = $;
-
-import justifiedGallery from 'justifiedGallery';
-//import swipebox from 'jquery.swipebox';
-
 let called = false;
 function metadataTest(manifest, config) {
     console.log('Called local test');
@@ -18,7 +10,6 @@ function metadataTest(manifest, config) {
     expect(manifest.label).toBe('Test Manifest');
     called = true;
 }
-
 
 // Don't call an jquery or justified gallarey functions as they won't work...
 test('Call metadata function on load of manifest', () => {
