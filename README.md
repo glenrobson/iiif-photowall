@@ -1,7 +1,7 @@
 # iiif-photowall
 iiif-photowall is a lightweight adaptation of [Justified Gallery](http://miromannino.github.io/Justified-Gallery/) to show images in a [IIIF](https://iiif.io) Manifest on a Flickr like photo wall. 
 
-<a href="https://iiif.gdmrdigital.com/iiif-photowall/index.html?manifest=https://damsssl.llgc.org.uk/iiif/2.0/1466237/manifest.json">
+<a href="https://iiif.gdmrdigital.com/iiif-photowall/index.html?manifest=https://damsssl.llgc.org.uk/iiif/2.0/1465719/manifest.json">
   <img src="https://raw.githubusercontent.com/glenrobson/iiif-photowall/master/examples/HMS_Conway.png"/>
 </a>
 
