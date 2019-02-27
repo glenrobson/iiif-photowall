@@ -1,4 +1,5 @@
 import {loadURL as _loadURL} from './buildPhotoWall'
+import {getMetadataField as _getMetadataField} from './buildPhotoWall'
 // Import JQuery required for justifiedGallery 
 import $ from 'jquery'
 import jQuery from 'jquery'
@@ -21,3 +22,4 @@ import 'justifiedGallery/src/less/justifiedGallery.less';
 
 // Export the configuration URL so this can be configered in the containg page
 export const loadURL = _loadURL;
+export const getMetadataField = _getMetadataField;
