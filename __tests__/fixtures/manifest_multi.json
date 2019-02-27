@@ -1,0 +1,13 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://www.qdl.qa/en/iiif/81055/vdc_100023331896.0x000001/manifest",
+    "@type": "sc:Manifest",
+    "label": [{
+        "@value": "'Parsons Collection: Album of views of India and South-East Asia by Major General Sir Arthur Edward Broadbent Parsons'",
+        "@language": "en"
+    }, {
+        "@value": "This is a welsh title",
+        "@language": "cy"
+    }
+    ]
+}

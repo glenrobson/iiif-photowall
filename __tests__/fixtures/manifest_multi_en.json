@@ -1,0 +1,533 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://www.qdl.qa/en/iiif/81055/vdc_100023331896.0x000001/manifest",
+    "@type": "sc:Manifest",
+    "label": {
+        "@value": "'Parsons Collection: Album of views of India and South-East Asia by Major General Sir Arthur Edward Broadbent Parsons'",
+        "@language": "en"
+    },
+    "within": "https://www.qdl.qa/en/iiif/collection",
+    "description": {
+        "@value": "Full leather bound album measuring 352 x 500 mm, decorated with blind tooling, and with initials 'A.P.' stamped in gold in centre of front cover. The album is numbered '5' on the front cover. The album is enclosed in a card slipcase. Binding by Zaehnsdorf, London. Prints are mounted several to a page, with handwritten captions and identifications in ink beneath each image.The views in this album are almost entirely amateur work and the contents can be broken down into the following broad headings: Prints 1-49 Snapshot views of architecture at Ahmadabad, Allahabad, Gwalior, Agra, Sanchi, Mandu, Kotah, Chittaurgarh, Udaipur, Jaipur, 1940-41. Prints 50-86 Snapshot views in Afghanistan, including views of rock-cut Buddha image at Bamian, 1941.Prints 87-98 Snapshoy views of Sikkim (Gangtok area) and Tibet (Yatung), 1941. Prints 99-101 Snapshot views of Moscow, 1942. Prints 102-143 Snapshot views, mainly mountain scenery, taken during Kashmir-Kagan tour, August 1942. Prints 144-227 Snapshot views of North-West Frontier, Iraq, Iran (Persian tour of April 1943). Prints 228-266 Snapshot views of North Africa: Egypt, Libya, Sudan, with a few views of Nicosia, 1943-4. Prints 267-310 Snapshot views of England, with two views of the Quetta Residency (271-2), 1945-51. Prints 311-425 Snapshot views of African tour, 1951-52. Prints 426-448 Snapshot views of England and Ireland, 1952-53. Prints 449-490 Snapshot views of Pakistan tour, with some views of Afghanistan, 1954-55. Prints 491-554 Snapshot views of the Persian Gulf and Africa, 1956-57. Prints 555-599 Snapshot views of North and South America and Canada, 1957-58. Prints 600-614 Snapshot views of England and Spain, 1959-60. Prints 615-642 Snapshot views of Port Said, Aden, Malaysia and Singapore, 1961. Prints 643-703 Snapshot views of Cambodia, with a few views of Bangkok and one English view (703), 1961. The complete collection comprises four albums, Photo 667/1-4. For Parsons' papers, see Mss. Eur. D.696. Major General Sir Arthur Edward Broadbent Parsons (1884-1966) entered The Sherwood Foresters in 1906 and the 52nd Sikhs Frontier Force in 1908. He joined the Indian Political Department in 1919 and served in the Third Afghan War 1919 and the Waziristan Operations of 1921-22. From 1936-39 he was Agent to the Governor General, Baluchistan, in the latter year also serving as Acting Governor, North-West Frontier Province. He served at GHQ, Middle East from 1943-44. Donated by Major R. V. E. Hodson, Mar 1983. See file IOLR/E/1/272/2. 703 prints",
+        "@language": "en"
+    },
+    "metadata": [
+        {
+            "label": {
+                "@value": "Qatar Digital Library link",
+                "@language": "en"
+            },
+            "value": {
+                "@value": "<a href=\"https://www.qdl.qa/en/archive/81055/vdc_100023331896.0x000001\">View full record online</a>",
+                "@language": "en"
+            }
+        },
+        {
+            "label": {
+                "@value": "Original held at",
+                "@language": "en"
+            },
+            "value": {
+                "@value": "British Library: India Office Records and Private Papers",
+                "@language": "en"
+            }
+        },
+        {
+            "label": {
+                "@value": "Type",
+                "@language": "en"
+            },
+            "value": {
+                "@value": "Photograph",
+                "@language": "en"
+            }
+        },
+        {
+            "label": {
+                "@value": "Archive reference",
+                "@language": "en"
+            },
+            "value": {
+                "@value": "Photo 667/4",
+                "@language": "en"
+            }
+        },
+        {
+            "label": {
+                "@value": "Original language",
+                "@language": "en"
+            },
+            "value": {
+                "@value": "English in Latin script",
+                "@language": "en"
+            }
+        },
+        {
+            "label": {
+                "@value": "Date",
+                "@language": "en"
+            },
+            "value": {
+                "@value": "1950s-1960s",
+                "@language": "en"
+            }
+        },
+        {
+            "label": {
+                "@value": "Physical characteristics",
+                "@language": "en"
+            },
+            "value": {
+                "@value": "\n                           \n                         Dimensions: \n                           \n                         352 x 500 mm",
+                "@language": "en"
+            }
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0001.jp2/full/80,100/0/default.jpg",
+        "service": [
+            {
+                "@context": "http://iiif.io/api/image/2/context.json",
+                "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0001.jp2",
+                "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+        ]
+    },
+    "service": {
+        "@context": "http://iiif.io/api/search/0/context.json",
+        "@id": "https://www.qdl.qa/en/annos/search/81055/vdc_100023331896.0x000001",
+        "profile": "http://iiif.io/api/search/0/search",
+        "label": "Search within this record"
+    },
+    "rendering": {
+        "@id": "https://s3-eu-west-1.amazonaws.com/live.archive.pdf/81055_vdc_100023331896.0x000001_en.pdf",
+        "label": "Download as PDF",
+        "format": "application/pdf"
+    },
+    "viewingHint": "paged",
+    "viewingDirection": "left-to-right",
+    "license": "https://www.qdl.qa/en/archive/81055/vdc_100023331896.0x000001#share",
+    "sequences": [
+        {
+            "@id": "https://www.qdl.qa/en/iiif/81055/vdc_100023331896.0x000001/sequence",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0001.jp2",
+                    "label": {
+                        "@value": "'Aurora (Argonant), Bahrain.' Photographer: Arthur Edward Broadbent Parsons [491] (1/1)",
+                        "@language": "en"
+                    },
+                    "@type": "sc:Canvas",
+                    "width": 6208,
+                    "height": 4669,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "profile": "http://iiif.io/api/image/1/level2.json",
+                                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0001.jp2"
+                                },
+                                "format": "image/jpeg",
+                                "@id": "https://www.qdl.qa/en/archive/81055/vdc_100028701694.0x000002",
+                                "@type": "dctypes:Image",
+                                "width": 6208,
+                                "height": 4669
+                            },
+                            "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0001.jp2/annotation",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0001.jp2"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0002.jp2",
+                    "label": {
+                        "@value": "'Oil Jetty-Mina el Ahmedi.' Photographer: Arthur Edward Broadbent Parsons [496] (1/1)",
+                        "@language": "en"
+                    },
+                    "@type": "sc:Canvas",
+                    "width": 6208,
+                    "height": 4501,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "profile": "http://iiif.io/api/image/1/level2.json",
+                                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0002.jp2"
+                                },
+                                "format": "image/jpeg",
+                                "@id": "https://www.qdl.qa/en/archive/81055/vdc_100028701694.0x000003",
+                                "@type": "dctypes:Image",
+                                "width": 6208,
+                                "height": 4501
+                            },
+                            "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0002.jp2/annotation",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0002.jp2"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0003.jp2",
+                    "label": {
+                        "@value": "'Oil flare-Ahmadi.' Photographer: Arthur Edward Broadbent Parsons [497] (1/1)",
+                        "@language": "en"
+                    },
+                    "@type": "sc:Canvas",
+                    "width": 6208,
+                    "height": 4501,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "profile": "http://iiif.io/api/image/1/level2.json",
+                                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0003.jp2"
+                                },
+                                "format": "image/jpeg",
+                                "@id": "https://www.qdl.qa/en/archive/81055/vdc_100028701694.0x000004",
+                                "@type": "dctypes:Image",
+                                "width": 6208,
+                                "height": 4501
+                            },
+                            "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0003.jp2/annotation",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0003.jp2"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0004.jp2",
+                    "label": {
+                        "@value": "'Constellation at Kuwait.' Photographer: Arthur Edward Broadbent Parsons [498] (1/1)",
+                        "@language": "en"
+                    },
+                    "@type": "sc:Canvas",
+                    "width": 6208,
+                    "height": 4424,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "profile": "http://iiif.io/api/image/1/level2.json",
+                                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0004.jp2"
+                                },
+                                "format": "image/jpeg",
+                                "@id": "https://www.qdl.qa/en/archive/81055/vdc_100028701694.0x000005",
+                                "@type": "dctypes:Image",
+                                "width": 6208,
+                                "height": 4424
+                            },
+                            "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0004.jp2/annotation",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0004.jp2"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0005.jp2",
+                    "label": {
+                        "@value": "'North end of Awali.' Photographer: Arthur Edward Broadbent Parsons [499] (1/1)",
+                        "@language": "en"
+                    },
+                    "@type": "sc:Canvas",
+                    "width": 6208,
+                    "height": 4259,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "profile": "http://iiif.io/api/image/1/level2.json",
+                                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0005.jp2"
+                                },
+                                "format": "image/jpeg",
+                                "@id": "https://www.qdl.qa/en/archive/81055/vdc_100028701694.0x000006",
+                                "@type": "dctypes:Image",
+                                "width": 6208,
+                                "height": 4259
+                            },
+                            "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0005.jp2/annotation",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0005.jp2"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0006.jp2",
+                    "label": {
+                        "@value": "'Manama' Photographer: Arthur Edward Broadbent Parsons [500] (1/1)",
+                        "@language": "en"
+                    },
+                    "@type": "sc:Canvas",
+                    "width": 6208,
+                    "height": 4394,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "profile": "http://iiif.io/api/image/1/level2.json",
+                                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0006.jp2"
+                                },
+                                "format": "image/jpeg",
+                                "@id": "https://www.qdl.qa/en/archive/81055/vdc_100028701694.0x000007",
+                                "@type": "dctypes:Image",
+                                "width": 6208,
+                                "height": 4394
+                            },
+                            "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0006.jp2/annotation",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0006.jp2"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0007.jp2",
+                    "label": {
+                        "@value": "'Portuguese Fort, Bahrain'. Photographer: Arthur Edward Broadbent Parsons [501] (1/1)",
+                        "@language": "en"
+                    },
+                    "@type": "sc:Canvas",
+                    "width": 6208,
+                    "height": 4678,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "profile": "http://iiif.io/api/image/1/level2.json",
+                                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0007.jp2"
+                                },
+                                "format": "image/jpeg",
+                                "@id": "https://www.qdl.qa/en/archive/81055/vdc_100028701694.0x000008",
+                                "@type": "dctypes:Image",
+                                "width": 6208,
+                                "height": 4678
+                            },
+                            "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0007.jp2/annotation",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0007.jp2"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0008.jp2",
+                    "label": {
+                        "@value": "'N. L. at Portuguese fort.' Photographer: Arthur Edward Broadbent Parsons [502] (1/1)",
+                        "@language": "en"
+                    },
+                    "@type": "sc:Canvas",
+                    "width": 6208,
+                    "height": 4678,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "profile": "http://iiif.io/api/image/1/level2.json",
+                                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0008.jp2"
+                                },
+                                "format": "image/jpeg",
+                                "@id": "https://www.qdl.qa/en/archive/81055/vdc_100028701694.0x000009",
+                                "@type": "dctypes:Image",
+                                "width": 6208,
+                                "height": 4678
+                            },
+                            "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0008.jp2/annotation",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0008.jp2"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0009.jp2",
+                    "label": {
+                        "@value": "'Mosque – Suq el Khamis' Photographer: Arthur Edward Broadbent Parsons [503] (1/1)",
+                        "@language": "en"
+                    },
+                    "@type": "sc:Canvas",
+                    "width": 5002,
+                    "height": 5699,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "profile": "http://iiif.io/api/image/1/level2.json",
+                                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0009.jp2"
+                                },
+                                "format": "image/jpeg",
+                                "@id": "https://www.qdl.qa/en/archive/81055/vdc_100028701694.0x00000a",
+                                "@type": "dctypes:Image",
+                                "width": 5002,
+                                "height": 5699
+                            },
+                            "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0009.jp2/annotation",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0009.jp2"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0010.jp2",
+                    "label": {
+                        "@value": "'Mosque at Suq el Khamis' Photographer: Arthur Edward Broadbent Parsons [504] (1/1)",
+                        "@language": "en"
+                    },
+                    "@type": "sc:Canvas",
+                    "width": 6336,
+                    "height": 4549,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "profile": "http://iiif.io/api/image/1/level2.json",
+                                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0010.jp2"
+                                },
+                                "format": "image/jpeg",
+                                "@id": "https://www.qdl.qa/en/archive/81055/vdc_100028701694.0x00000b",
+                                "@type": "dctypes:Image",
+                                "width": 6336,
+                                "height": 4549
+                            },
+                            "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0010.jp2/annotation",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0010.jp2"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0011.jp2",
+                    "label": {
+                        "@value": "'Jetty at Sitra.' Photographer: Arthur Edward Broadbent Parsons [505] (1/1)",
+                        "@language": "en"
+                    },
+                    "@type": "sc:Canvas",
+                    "width": 6336,
+                    "height": 4411,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "profile": "http://iiif.io/api/image/1/level2.json",
+                                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0011.jp2"
+                                },
+                                "format": "image/jpeg",
+                                "@id": "https://www.qdl.qa/en/archive/81055/vdc_100028701694.0x00000c",
+                                "@type": "dctypes:Image",
+                                "width": 6336,
+                                "height": 4411
+                            },
+                            "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0011.jp2/annotation",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0011.jp2"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0012.jp2",
+                    "label": {
+                        "@value": "'British Sailor at Mina.' Photographer: Arthur Edward Broadbent Parsons [506] (1/1)",
+                        "@language": "en"
+                    },
+                    "@type": "sc:Canvas",
+                    "width": 6336,
+                    "height": 4348,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "profile": "http://iiif.io/api/image/1/level2.json",
+                                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0012.jp2"
+                                },
+                                "format": "image/jpeg",
+                                "@id": "https://www.qdl.qa/en/archive/81055/vdc_100028701694.0x00000d",
+                                "@type": "dctypes:Image",
+                                "width": 6336,
+                                "height": 4348
+                            },
+                            "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0012.jp2/annotation",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0012.jp2"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0013.jp2",
+                    "label": {
+                        "@value": "'British Sailor.' Photographer: Arthur Edward Broadbent Parsons [507] (1/1)",
+                        "@language": "en"
+                    },
+                    "@type": "sc:Canvas",
+                    "width": 6336,
+                    "height": 4528,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "profile": "http://iiif.io/api/image/1/level2.json",
+                                    "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0013.jp2"
+                                },
+                                "format": "image/jpeg",
+                                "@id": "https://www.qdl.qa/en/archive/81055/vdc_100028701694.0x00000e",
+                                "@type": "dctypes:Image",
+                                "width": 6336,
+                                "height": 4528
+                            },
+                            "@id": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0013.jp2/annotation",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0013.jp2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "structures": [
+        {
+            "canvases": [
+                "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0001.jp2",
+                "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0002.jp2",
+                "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0003.jp2",
+                "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0004.jp2",
+                "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0005.jp2",
+                "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0006.jp2",
+                "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0007.jp2",
+                "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0008.jp2",
+                "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0009.jp2",
+                "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0010.jp2",
+                "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0011.jp2",
+                "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0012.jp2",
+                "https://images.qdl.qa/iiif/images/81055/vdc_100023331896.0x000001/Photo 667_4_0013.jp2"
+            ],
+            "@id": "https://www.qdl.qa/en/archive/81055/vdc_100023331896.0x000001-table-of-content",
+            "@type": "sc:Range",
+            "label": {
+                "@value": "'Parsons Collection: Album of views of India and South-East Asia by Major General Sir Arthur Edward Broadbent Parsons'",
+                "@language": "en"
+            }
+        }
+    ]
+}
