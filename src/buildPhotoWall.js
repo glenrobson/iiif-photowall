@@ -64,7 +64,7 @@ function populateBatch(images, config, start, batch_size) {
             console.log('finished first promise');
         } else {
             console.log("Promise " + start + ' - ' + (start + batch_size) + " is done");
-            $("#" + config.div).justifiedGallery('norewind');
+            $("#" + config.div).justifiedGallery('norewind'); // Can I wait until this is finished?
         }
         populateBatch(images, config, start + batch_size, batch_size); 
     });
@@ -94,6 +94,9 @@ function addDefaults(config) {
     }
     if (config.batch_size == null) {
         config.batch_size = 20;
+    }    
+    if (config.lng == null) {
+        config.lng = 'en';
     }    
 }
 function generateThumbnail(currentPath, width, height, image) {
@@ -202,7 +205,7 @@ function loadImages(manifest, config) {
         a.className = 'swipeboxExampleImg';
         var img = document.createElement("img");
         a.appendChild(img);
-        img.alt = canvas['label'];
+        img.alt = getMetadataField(canvas, 'label', config.lng);
         img.id = imageId;
         images.push({ 
             image: imageId, 
@@ -212,6 +215,28 @@ function loadImages(manifest, config) {
     }
     console.log('Finished Manifest processing');
     return images;
+}
+
+// Return the label with the specified lang if aviliable, 
+// if not avilable return no language value
+// if only value of a different languge return that
+export function getMetadataField(json, field, lang) {
+    var metadata = json[field];
+
+    if (Array.isArray(metadata)) {
+        for (var i = 0; i < metadata.length; i++) {
+            if (metadata[i]['@language'] === lang) {
+                return metadata[i]['@value'];
+            }
+        }
+        // if haven't found correct lang then return the first one
+        return metadata[i]['@value'];
+    } else if (typeof metadata === 'object') {
+        // if only one languge return wether correct or not
+        return metadata['@value'];
+    } else { 
+        return metadata; 
+    }
 }
 
 function getWidth() {
