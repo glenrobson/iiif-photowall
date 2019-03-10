@@ -99,39 +99,31 @@ function addDefaults(config) {
         config.lng = 'en';
     }    
 }
-function generateThumbnail(currentPath, width, height, image) {
-    var url = currentPath.split("/");
-    // If current image is big enough return this rather than get a new image
-    if (url.length > 4) {
-        var size = url[url.length - 3];
-        var imgWidth = size.split(',')[0];
-        var imgHeight = size.split(',')[1];
-        if (imgHeight > height) {
-            return currentPath;
-        }
-    }
-    var info = infoJsonMap[image.id];
-    if (info == null) {
+
+export function getImageUrl(image, width, height, info_json) {
+    if (info_json == null) {
         return image.id + '/full/,512/0/default.jpg';
     } else {
         // Work out best size for thumbnail
         // Start with pre-generated
         var minArea = 0;
         var size = null;
-        for (var i = 0; i < info.sizes.length; i++) {
-            if (info.sizes[i].width > width && info.sizes[i].height > height) {
-                if (size == null) {
-                    size = {};
-                    minArea = (info.sizes[i].width * info.sizes[i].height);
-                    size.width = info.sizes[i].width;
-                    size.height = info.sizes[i].height;
-                } else if ((info.sizes[i].width * info.sizes[i].height) < minArea) {
-                    minArea = (info.sizes[i].width * info.sizes[i].height);
-                    size.width = info.sizes[i].width;
-                    size.height = info.sizes[i].height;
+        if (info_json.sizes) {
+            for (var i = 0; i < info_json.sizes.length; i++) {
+                if (info_json.sizes[i].width > width && info_json.sizes[i].height > height) {
+                    if (size == null) {
+                        size = {};
+                        minArea = (info_json.sizes[i].width * info_json.sizes[i].height);
+                        size.width = info_json.sizes[i].width;
+                        size.height = info_json.sizes[i].height;
+                    } else if ((info_json.sizes[i].width * info_json.sizes[i].height) < minArea) {
+                        minArea = (info_json.sizes[i].width * info_json.sizes[i].height);
+                        size.width = info_json.sizes[i].width;
+                        size.height = info_json.sizes[i].height;
+                    }
                 }
             }
-        }
+        }    
         if (size != null) {
             return image.id + '/full/' + size.width + ',' + size.height + '/0/default.jpg';
         }    
@@ -145,6 +137,20 @@ function generateThumbnail(currentPath, width, height, image) {
             return image.id + '/full/!' + width + ',' + height + '/0/default.jpg';
         }    
     }
+}
+function generateThumbnail(currentPath, width, height, image) {
+    var url = currentPath.split("/");
+    // If current image is big enough return this rather than get a new image
+    if (url.length > 4) {
+        var size = url[url.length - 3];
+        var imgWidth = size.split(',')[0];
+        var imgHeight = size.split(',')[1];
+        if (imgHeight > height) {
+            return currentPath;
+        }
+    }
+    var info = infoJsonMap[image.id];
+    return getImageUrl(image, width, height, info)
 }
 
 function saveInfoJson(imageId, a, img, height) {
