@@ -1,0 +1,17 @@
+{
+  "@context" : "http://iiif.io/api/image/2/context.json",
+"@id" : "http://dams.llgc.org.uk/iiif/2.0/image/4574753",
+  "protocol" : "http://iiif.io/api/image",
+  "width" : 4537,
+  "height" : 5946,
+  "tiles" : [
+     { "width" : 256, "height" : 256, "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ] }
+  ],
+  "profile" : [
+     "http://iiif.io/api/image/2/level1.json",
+     { "formats" : [ "jpg" ],
+       "qualities" : [ "native","color","gray" ],
+       "supports" : ["regionByPct","sizeByForcedWh","sizeByWh","sizeAboveFull","rotationBy90s","mirroring","gray"] }
+  ]
+}
+
